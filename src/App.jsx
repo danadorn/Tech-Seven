@@ -1,8 +1,13 @@
-import { BrowserRouter as Router, Route, Routes, RouterProvider, createBrowserRouter } from "react-router-dom";
-import Aboutus from "./page/aboutus/Aboutus";
-import Home from "./page/homepage/Home";
-import RootLayout from './components/layout/RootLayout'
+import { createBrowserRouter, RouterProvider } from 'react-router';
+import './App.css';
+import Home from './page/homepage/Home';
 
+// import { createBrowserRouter, RouterProvider } from "react-router";
+import "./App.css";
+// import RootLayout from "./components/layout/RootLayout";
+import NavbarComponent from "./components/button/navbar/NavbarComponent";
+import FooterComponent from "./components/footer/FooterComponent";
+import ShoppingCart from "./page/shoppingcart/ShoppingCart";
 
 function App() {
     const router = createBrowserRouter([
@@ -22,4 +27,3 @@ function App() {
 }
 
 export default App;
-
