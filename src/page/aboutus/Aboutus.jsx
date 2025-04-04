@@ -5,6 +5,19 @@ import img3 from '../../../src/assets/img3.png'
 import logo2 from '../../../src/assets/logo2.png'
 import img4 from '../../../src/assets/img4.png'
 import logo3 from '../../../src/assets/logo3.png'
+import logodana from '../../../src/assets/logodana.png'
+import logophea from '../../../src/assets/logophea.png'
+import logovengroth from '../../../src/assets/logovengroth.png'
+import logolong from '../../../src/assets/logolong.png'
+import logothearoth from '../../../src/assets/logothearoth.png'
+import logovisal from '../../../src/assets/logovisal.png'
+import logokheang from '../../../src/assets/logokheang.png'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faLinkedin, faTelegram, faGithub  } from '@fortawesome/free-brands-svg-icons'
+
+
+
+
 
 
 export default function Aboutus() {
@@ -120,55 +133,256 @@ export default function Aboutus() {
                 </section>
             </div>
 
-            {/* section 5 */}
-            <section>
-                <div className='text-4xl flex justify-center'>
-                    <h2>Mentor</h2>
-                </div>
-                <div className='grid grid-cols-1 md:grid-cols-2 gap-3 items-center bg-gray-100 text-gray p-6 rounded-lg'>
-                
-                </div>
-            </section>
 
-            {/*  sectiont our team */}
+    {/* section 5 */}
 
-                <div className='text-4xl flex justify-center'>
-                    <h2>our team</h2>
-                </div>
-                <div className='grid grid-cols-1 md:grid-cols-2 gap-3 items-center bg-gray-100 text-gray p-6 rounded-lg'>
-                
-                </div>
+      <section>
+        <h3 className="flex  justify-center m-auto  font-medium text-[35px] py-[40px]">
+          OUR MENTOR
+        </h3>
+        <div className="w-[90%] h-[auto] bg-gray-100  m-auto    rounded-[20px]  grid max-sm:grid-cols-1   sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2">
+          <div className="w-[300px] h-[320px] bg-white m-auto rounded-[25px] max-sm:mt-[190px]  mt-[190px] mb-[200px] md:mb-[100px] ">
+            <figure className="w-[210px] h-[210px] rounded-[150px] m-auto relative top-[-100px] bg-amber-200 border-[6px] ">
+              <img src="../public/img/logo-square-01.png" alt="" />
+            </figure>
+            <h3 className="flex w-full justify-center relative top-[-100px] text-[25px]">
+              Kim Chansokpheng
+            </h3>
+            <p className="flex w-full justify-center relative top-[-100px] text-[20px]">
+              Instructor
+            </p>
+            <ul className="flex justify-center relative gap-10 top-[-50px]">
+                <li><FontAwesomeIcon icon={faLinkedin} size="2xl" /></li>
+                <li><FontAwesomeIcon icon={faTelegram} size="2xl" /></li>
+                <li><FontAwesomeIcon icon={faGithub} size="2xl" /></li>
+              </ul>
+          </div>
 
-             {/*  section contact us */}
-        <section>
-        <div>
-        <section>
-        <h3 className='text-[30px] font-medium pl-[90px] max-sm:pl-[15px]'>Contact Us</h3>
-      <h3 className='pl-[75px] mt-[20px] max-sm:pl-[15px]'>We love hearing from you, Our shop customers. <br />Please contact us and we will make sure to get back to you soon as we possible can.</h3>
-      <div className='flex mt-[20px] pl-[75px] max-sm:pl-[15px] max-sm:flex-col'>
-        <div className='w-[50vw]  mb-[45px] max-sm:w-[100vw]'>
-            <h3 className='font-medium mb-[5px]'>Your Name</h3>
-            <label htmlFor="name" className='border-1 pb-[30px]'><input type="text" placeholder='Your Name' className='w-[90%] pb-[30px]' /></label>
+          <div className="w-[300px] h-[320px] bg-white m-auto rounded-[25px] max-sm:mt-[190px]  mt-[190px] mb-[200px] md:mb-[100px] ">
+            <figure className="w-[210px] h-[210px] rounded-[150px] m-auto relative top-[-100px] bg-amber-200 border-[6px] ">
+            <img 
+               src={logophea}
+                  alt="Office"
+                  className="w-[100%] rounded-lg shadow-lg" />
+            </figure>
+            <h3 className="flex w-full justify-center relative top-[-100px] text-[25px]">
+              Sin Sreyphea
+            </h3>
+            <p className="flex w-full justify-center relative top-[-100px] text-[20px]">
+              Instructor
+            </p>
+            <ul className="flex justify-center relative gap-10 top-[-50px]">
+                <li><FontAwesomeIcon icon={faLinkedin} size="2xl" /></li>
+                <li><FontAwesomeIcon icon={faTelegram} size="2xl" /></li>
+                <li><FontAwesomeIcon icon={faGithub} size="2xl" /></li>
+              </ul>
+          </div>
+          
         </div>
-        <div className=' w-[50vw] mb-[45px] max-sm:w-[100vw]'>
-            <h3 className='font-medium mb-[5px]'>Your Email</h3>
-            <label htmlFor="name" className='border-1 w-[45vw] pb-[30px]'><input type="text" placeholder='Your Email'  className='w-[90%] pb-[30px]'/></label>
+      </section>
+      {/* section 6 */}
+      <section>
+        <h3 className="flex  justify-center m-auto  font-medium text-[35px] py-[40px]">
+          OUR Team
+        </h3>
+        <div className="w-[90%] pt-[] h-[auto] bg-gray-100 m-auto pt-[90px] rounded-[20px] ">
+          <div className="w-[300px] h-[320px] bg-white m-auto rounded-[25px] mt-[100px] max-sm:mt-[70px] ">
+            <figure className="w-[210px] h-[210px] rounded-[150px] m-auto relative top-[-100px] border-[6px] ">
+              <img 
+                 src={logodana}
+                      alt="Office"
+                        className="w-[100%] rounded-lg shadow-lg"/>
+            </figure>
+            <h3 className="flex w-full justify-center relative top-[-100px] text-[25px]">
+              Dorn Dana
+            </h3>
+            <p className="flex w-full justify-center relative top-[-100px] text-[20px]">
+              Leader
+            </p>
+            <ul className="flex justify-center relative gap-10 top-[-50px]">
+                <li><FontAwesomeIcon icon={faLinkedin} size="2xl" /></li>
+                <li><FontAwesomeIcon icon={faTelegram} size="2xl" /></li>
+                <li><FontAwesomeIcon icon={faGithub} size="2xl" /></li>
+              </ul>
+          </div>
+          <div className="my-[50px] grid mt-[200px] pb-[70px] sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3">
+            <div className="w-[300px] h-[320px] bg-white m-auto rounded-[25px]  ">
+              <figure className="w-[210px] h-[210px] rounded-[150px] m-auto relative top-[-100px] bg-amber-200 border-[6px] ">
+                <img src="../public/img/logo-square-01.png" alt="" />
+              </figure>
+              <h3 className="flex w-full justify-center relative top-[-100px] text-[25px]">
+                Keo Sreyheng
+              </h3>
+              <p className="flex w-full justify-center relative top-[-100px] text-[20px]">
+                Front-End
+              </p>
+              <ul className="flex justify-center relative gap-10 top-[-50px]">
+                <li><FontAwesomeIcon icon={faLinkedin} size="2xl" /></li>
+                <li><FontAwesomeIcon icon={faTelegram} size="2xl" /></li>
+                <li><FontAwesomeIcon icon={faGithub} size="2xl" /></li>
+              </ul>
+
+            </div>
+            <div className="w-[300px] h-[320px] bg-white m-auto rounded-[25px] mt-[200px] md:mt-[0] lg:mt-[0] xl:mt-[0] ">
+              <figure className="w-[210px] h-[210px] rounded-[150px] m-auto relative top-[-100px]  border-[6px] ">
+              <img 
+                 src={logovengroth}
+                      alt="Office"
+                        className="w-[100%] rounded-lg shadow-lg"/>
+              </figure>
+              <h3 className="flex w-full justify-center relative top-[-100px] text-[25px]">
+                Lor Vengroth
+              </h3>
+              <p className="flex w-full justify-center relative top-[-100px] text-[20px]">
+                Front-End
+              </p>
+              <ul className="flex justify-center relative gap-10 top-[-50px]">
+                <li><FontAwesomeIcon icon={faLinkedin} size="2xl" /></li>
+                <li><FontAwesomeIcon icon={faTelegram} size="2xl" /></li>
+                <li><FontAwesomeIcon icon={faGithub} size="2xl" /></li>
+              </ul>
+            </div>
+            <div className="w-[300px] h-[320px] bg-white m-auto rounded-[25px] mt-[200px] xl:mt-[0]">
+              <figure className="w-[210px] h-[210px] rounded-[150px] m-auto relative top-[-100px] bg-amber-200 border-[6px] ">
+              <img 
+                 src={logothearoth}
+                      alt="Office"
+                        className="w-[100%] rounded-lg shadow-lg"/>
+              </figure>
+              <h3 className="flex w-full justify-center relative top-[-100px] text-[25px]">
+                Oum Kunthearoth
+              </h3>
+              <p className="flex w-full justify-center relative top-[-100px] text-[20px]">
+                Front-End
+              </p>
+              <ul className="flex justify-center relative gap-10 top-[-50px]">
+                <li><FontAwesomeIcon icon={faLinkedin} size="2xl" /></li>
+                <li><FontAwesomeIcon icon={faTelegram} size="2xl" /></li>
+                <li><FontAwesomeIcon icon={faGithub} size="2xl" /></li>
+              </ul>
+            </div>
+            <div className="w-[300px] h-[320px] bg-white m-auto rounded-[25px] mt-[200px] ">
+              <figure className="w-[210px] h-[210px] rounded-[150px] m-auto relative top-[-100px] bg-amber-200 border-[6px] ">
+              <img 
+                 src={logovisal}
+                      alt="Office"
+                        className="w-[100%] rounded-lg shadow-lg"/>
+              </figure>
+              <h3 className="flex w-full justify-center relative top-[-100px] text-[25px]">
+                Long Visal
+              </h3>
+              <p className="flex w-full justify-center relative top-[-100px] text-[20px]">
+                Front-End
+              </p>
+              <ul className="flex justify-center relative gap-10 top-[-50px]">
+                <li><FontAwesomeIcon icon={faLinkedin} size="2xl" /></li>
+                <li><FontAwesomeIcon icon={faTelegram} size="2xl" /></li>
+                <li><FontAwesomeIcon icon={faGithub} size="2xl" /></li>
+              </ul>
+            </div>
+            <div className="w-[300px] h-[320px] bg-white m-auto rounded-[25px] mt-[200px]">
+              <figure className="w-[210px] h-[210px] rounded-[150px] m-auto relative top-[-100px] bg-amber-200 border-[6px] ">
+              <img 
+                 src={logokheang}
+                      alt="Office"
+                        className="w-[100%] rounded-lg shadow-lg"/>
+              </figure>
+              <h3 className="flex w-full justify-center relative top-[-100px] text-[25px]">
+                Sovann Sivkheang
+              </h3>
+              <p className="flex w-full justify-center relative top-[-100px] text-[20px]">
+                Front-End
+              </p>
+              <ul className="flex justify-center relative gap-10 top-[-50px]">
+                <li><FontAwesomeIcon icon={faLinkedin} size="2xl" /></li>
+                <li><FontAwesomeIcon icon={faTelegram} size="2xl" /></li>
+                <li><FontAwesomeIcon icon={faGithub} size="2xl" /></li>
+              </ul>
+            </div>
+            <div className="w-[300px] h-[320px] bg-white m-auto rounded-[25px] mt-[200px] ">
+              <figure className="w-[210px] h-[210px] rounded-[150px] m-auto relative top-[-100px] bg-amber-200 border-[6px] ">
+              <img 
+                 src={logolong}
+                      alt="Office"
+                        className="w-[100%] rounded-lg shadow-lg"/>
+              </figure>
+              <h3 className="flex w-full justify-center relative top-[-100px] text-[25px]">
+                Srieng Menglong
+              </h3>
+              <p className="flex w-full justify-center relative top-[-100px] text-[20px]">
+                Front-End
+              </p>
+              <ul className="flex justify-center relative gap-10 top-[-50px]">
+                <li><FontAwesomeIcon icon={faLinkedin} size="2xl" /></li>
+                <li><FontAwesomeIcon icon={faTelegram} size="2xl" /></li>
+                <li><FontAwesomeIcon icon={faGithub} size="2xl" /></li>
+              </ul>
+            </div>
+          </div>
         </div>
-      </div>
-      <div className=' w-[50vw] pl-[75px]  mb-[40px] max-sm:pl-[15px] max-sm:w-[100vw]'>
-            <h3 className='font-medium mb-[5px]'>Your Phone Number</h3>
-            <label htmlFor="name" className='border-1 pb-[30px]'><input type="text" placeholder='Your Phone number' className='w-[95%] pb-[30px]' /></label>
-      </div>
-      <div className=' w-[100vw] h-[210px] pl-[75px] max-sm:pl-[15px]'>
-            <h3 className='font-medium mb-[5px]'>What on your mind?</h3>
-            <label htmlFor="name" className='border-1 pb-[150px] '><input type="text" placeholder='Got us a note and we will get back you as quick as possible' className='w-[95%]  pb-[150px]' /></label>
-      </div>
-      <button className='bg-blue-600 mt-[10px] py-[10px] px-[70px] rounded-4xl ml-[75px] text-white font-medium '>Submit</button>
-        </section>
+      </section>
+
+      <section>
+        <h3 className="text-[30px] font-medium pl-[60px] max-sm:pl-[25px]">
+          Contact Us
+        </h3>
+        <h3 className="pl-[45px] mt-[20px] max-sm:pl-[25px]">
+          We love hearing from you, Our shop customers. <br />
+          Please contact us and we will make sure to get back to you soon as we
+          possible can.
+        </h3>
+        <div className="flex mt-[20px] pl-[45px] max-sm:pl-[25px] max-sm:flex-col sm:flex-col md:flex-row lg:flex-row xl:flex-row">
+          <div className="w-[50vw]  mb-[45px] max-sm:w-[100vw] sm:w-[100vw]">
+            <h3 className="font-medium mb-[5px]">Your Name</h3>
+            <label htmlFor="name" className="border-[0.5px] pb-[30px] rounded-[5px]">
+              <input
+                type="text"
+                placeholder="Your Name"
+                className="w-[90%] pb-[30px]  pl-[20px]  "
+              />
+            </label>
+          </div>
+          <div className=" w-[50vw] mb-[45px] max-sm:w-[100vw] sm:w-[100vw]">
+            <h3 className="font-medium mb-[5px]">Your Email</h3>
+            <label htmlFor="name" className="border-[0.5px] w-[45vw] pb-[30px] rounded-[5px]">
+              <input
+                type="text"
+                placeholder="Your Email"
+                className="w-[90%] pb-[30px]  pl-[20px]"
+              />
+            </label>
+          </div>
+        </div>
+        <div className=" w-[50vw] pl-[45px]  mb-[40px] max-sm:pl-[25px] max-sm:w-[100vw] sm:w-[100vw] md:w-[50vw]  lg:w-[50vw]  xl:w-[50vw]">
+          <h3 className="font-medium mb-[5px]">Your Phone Number</h3>
+          <label htmlFor="name" className="border-[0.5px] pb-[30px] rounded-[5px]">
+            <input
+              type="text"
+              placeholder="Your Phone number"
+              className="w-[95%] pb-[30px]  pl-[20px]"
+            />
+          </label>
+        </div>
+        <div className=" w-[100vw] h-[210px] pl-[45px] max-sm:pl-[25px]">
+          <h3 className="font-medium mb-[5px]">What on your mind?</h3>
+          <label htmlFor="name" className="border-[0.5px] pb-[150px] rounded-[5px] ">
+            <input
+              type="text"
+              placeholder="Got us a note and we will get back you as quick as possible"
+              className="w-[95%]  pb-[150px] pl-[20px]"
+            />
+          </label>
+        </div>
+        <div className="w-full flex justify-center ">
+        <button className="bg-blue-600 mt-[10px] py-[10px] px-[70px] rounded-4xl  text-white font-medium ">
+          Submit
+        </button>
+        </div>
       
-    </div>
+      </section>
 
-        </section>
+
+
         </div>
 
        
