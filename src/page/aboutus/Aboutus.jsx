@@ -12,13 +12,10 @@ import logolong from '../../../src/assets/logolong.png'
 import logothearoth from '../../../src/assets/logothearoth.png'
 import logovisal from '../../../src/assets/logovisal.png'
 import logokheang from '../../../src/assets/logokheang.png'
+import logopheng from '../../../src/assets/logopheng.png'
+import logoheng from '../../../src/assets/logoheng.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin, faTelegram, faGithub  } from '@fortawesome/free-brands-svg-icons'
-
-
-
-
-
 
 export default function Aboutus() {
     return(
@@ -44,48 +41,37 @@ export default function Aboutus() {
                         />
                     </div>
                 </div>
-
                 </section>
-
-                {/* Section 2 */}
-                
+       {/* Section 2 */}     
                 <section>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-3 items-center bg-gray-100 text-gray p-6 rounded-lg">
                 <div className='flex justify-center'>
-                        <img 
-                            src={img2}
-                            alt="Office"
-                            className="w-[50%] rounded-lg shadow-lg"
-                        />
+                        <img src={img2} alt="Office"
+                            className="w-[50%] rounded-lg shadow-lg"/>
                     </div>
                     <div>
                         <div className='flex'>
                         <img 
                             src={logo1}
                             alt="Office"
-                            className="w-[12%]"
-                        />
+                            className="w-[12%]"/>
                         <h2 className="text-4xl font-bold mb-10 ">Tech-7</h2>
                         </div>
-                    
                         <p className="mt-2 text-sm ">
                         T-7.com is a proudly USA owned, Melbourne based supplier of I.T. goods and services, operating since 2025. Our client base encompasses individuals, small business, corporate and government organizations. We provide complete business IT solutions, centered on high quality hardware and exceptional customer service.
                         </p>
                     </div>
-                   
                 </div>
-
-                </section>
-                {/* Section 3 */}
-                <section>
+             </section>
+          {/* Section 3 */}
+            <section>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-3 items-center bg-black text-white p-6 rounded-lg">
                     <div>
                     <div className='flex'>
                         <img 
                             src={logo2}
                             alt="Office"
-                            className="w-[10%]"
-                        />
+                            className="w-[10%]"/>
                         <h2 className="text-4xl font-bold mb-10 ">Now You're In Safe Hands</h2>
                         </div>
                         <p className="mt-2 text-sm ">
@@ -97,53 +83,47 @@ export default function Aboutus() {
                         <img 
                             src={img3}
                             alt="Office"
-                            className="w-[60%] rounded-lg shadow-lg"
-                        />
+                            className="w-[60%] rounded-lg shadow-lg"/>
                     </div>
                 </div>
+            </section>
 
-                </section>
-
-                {/* Section 4 */}
-                <section>
+        {/* Section 4 */}
+            <section>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-3 items-center bg-gray-100 text-gray p-6 rounded-lg">
                 <div className='flex justify-center'>
                         <img 
                             src={img4}
                             alt="Office"
-                            className="w-[50%] rounded-lg shadow-lg"
-                        />
+                            className="w-[50%] rounded-lg shadow-lg"/>
                     </div>
                     <div>
                         <div className='flex'>
                         <img 
                             src={logo3}
                             alt="Office"
-                            className="w-[10%]"
-                        />
+                            className="w-[10%]"/>
                         <h2 className="text-3xl font-bold mb-10 ">The Highest Quality of Products</h2>
                         </div>
-                    
                         <p className="mt-2 text-sm ">
                         We guarantee the highest quality of the products we sell. Several decades of successful operation and millions of happy customers let us feel certain about that. Besides, all items we sell pass thorough quality control, so no characteristics mismatch can escape the eye of our professionals.
                         </p>
                     </div>
-                   
                 </div>
-                </section>
-            </div>
-
-
+          </section>
+        </div>
     {/* section 5 */}
-
       <section>
-        <h3 className="flex  justify-center m-auto  font-medium text-[35px] py-[40px]">
-          OUR MENTOR
+           <h3 className="flex  justify-center m-auto  font-medium text-[35px] py-[40px]">
+               OUR MENTOR
         </h3>
         <div className="w-[90%] h-[auto] bg-gray-100  m-auto    rounded-[20px]  grid max-sm:grid-cols-1   sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2">
           <div className="w-[300px] h-[320px] bg-white m-auto rounded-[25px] max-sm:mt-[190px]  mt-[190px] mb-[200px] md:mb-[100px] ">
             <figure className="w-[210px] h-[210px] rounded-[150px] m-auto relative top-[-100px] bg-amber-200 border-[6px] ">
-              <img src="../public/img/logo-square-01.png" alt="" />
+            <img 
+               src={logopheng}
+                  alt="Office"
+                  className="w-[100%] rounded-lg shadow-lg" />
             </figure>
             <h3 className="flex w-full justify-center relative top-[-100px] text-[25px]">
               Kim Chansokpheng
@@ -157,7 +137,6 @@ export default function Aboutus() {
                 <li><FontAwesomeIcon icon={faGithub} size="2xl" /></li>
               </ul>
           </div>
-
           <div className="w-[300px] h-[320px] bg-white m-auto rounded-[25px] max-sm:mt-[190px]  mt-[190px] mb-[200px] md:mb-[100px] ">
             <figure className="w-[210px] h-[210px] rounded-[150px] m-auto relative top-[-100px] bg-amber-200 border-[6px] ">
             <img 
@@ -176,14 +155,13 @@ export default function Aboutus() {
                 <li><FontAwesomeIcon icon={faTelegram} size="2xl" /></li>
                 <li><FontAwesomeIcon icon={faGithub} size="2xl" /></li>
               </ul>
-          </div>
-          
+          </div> 
         </div>
       </section>
       {/* section 6 */}
       <section>
         <h3 className="flex  justify-center m-auto  font-medium text-[35px] py-[40px]">
-          OUR Team
+          OUR TEAM
         </h3>
         <div className="w-[90%] pt-[] h-[auto] bg-gray-100 m-auto pt-[90px] rounded-[20px] ">
           <div className="w-[300px] h-[320px] bg-white m-auto rounded-[25px] mt-[100px] max-sm:mt-[70px] ">
@@ -208,7 +186,10 @@ export default function Aboutus() {
           <div className="my-[50px] grid mt-[200px] pb-[70px] sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3">
             <div className="w-[300px] h-[320px] bg-white m-auto rounded-[25px]  ">
               <figure className="w-[210px] h-[210px] rounded-[150px] m-auto relative top-[-100px] bg-amber-200 border-[6px] ">
-                <img src="../public/img/logo-square-01.png" alt="" />
+              <img 
+                 src={logoheng}
+                      alt="Office"
+                        className="w-[100%] rounded-lg shadow-lg"/>
               </figure>
               <h3 className="flex w-full justify-center relative top-[-100px] text-[25px]">
                 Keo Sreyheng
@@ -221,7 +202,6 @@ export default function Aboutus() {
                 <li><FontAwesomeIcon icon={faTelegram} size="2xl" /></li>
                 <li><FontAwesomeIcon icon={faGithub} size="2xl" /></li>
               </ul>
-
             </div>
             <div className="w-[300px] h-[320px] bg-white m-auto rounded-[25px] mt-[200px] md:mt-[0] lg:mt-[0] xl:mt-[0] ">
               <figure className="w-[210px] h-[210px] rounded-[150px] m-auto relative top-[-100px]  border-[6px] ">
@@ -321,7 +301,6 @@ export default function Aboutus() {
           </div>
         </div>
       </section>
-
       <section>
         <h3 className="text-[30px] font-medium pl-[60px] max-sm:pl-[25px]">
           Contact Us
@@ -378,14 +357,8 @@ export default function Aboutus() {
           Submit
         </button>
         </div>
-      
       </section>
-
-
-
-        </div>
-
-       
+        </div>     
        </>
     )
 }
