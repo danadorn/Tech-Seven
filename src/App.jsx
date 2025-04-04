@@ -1,27 +1,29 @@
-import { createBrowserRouter, RouterProvider } from 'react-router';
+// import { createBrowserRouter, RouterProvider } from 'react-router';
 import './App.css';
 import Home from './page/homepage/Home';
 import Aboutus from './page/aboutus/Aboutus';
 
-// import { createBrowserRouter, RouterProvider } from "react-router";
-import "./App.css";
-import RootLayout from './components/layout/RootLayout';
+
 
 function App() {
-    // const router = createBrowserRouter([
-    //     {
-    //       path: "/",
-    //       element: <RootLayout/>, // Wrap with Layout
-    //       children: [
-    //         { path: "/", element: <Home /> },
-    //         { path: "/about", element: <Aboutus /> },
-    //       ]
-    //     },
-    // ])
+  // const router = createBrowserRouter([
+  //   {
+  //     path: "/",
+  //     element: <Home />,
+  //   },
+  //   {
+  //     path: "/about",
+  //     element: <h2>About Us</h2>,
+  //   },
     
-    return (
-      <div></div>
-    )
+     
+  // ]);
+
+  return (
+    // <RouterProvider router={router} />
+    <div>
+    </div>
+  );
 }
 
 export default App;
