@@ -12,6 +12,9 @@ import ProductDetail from "./page/productdetail/ProductDetail.jsx";
 import PrivacyPolicy from "./page/privacypolicy/PrivacyPolicy.jsx";
 import SignIn from "./page/signin/SignIn.jsx";
 import CreateAccount from "./page/createaccount/CreateAccount.jsx";
+import Shipping from "./page/payment/Shipping.jsx";
+import Delivery from "./page/payment/Devlivery.jsx";
+import Payment from "./page/payment/Payment.jsx";
 
 
 createRoot(document.getElementById("root")).render(
@@ -26,6 +29,10 @@ createRoot(document.getElementById("root")).render(
         <Route path="/product-detail/:id" element={<ProductDetail/>}/>
         <Route path="/create-account" element={<CreateAccount/>}/>
         <Route path="/privacy" element={<PrivacyPolicy/>}/>
+        <Route path="/shipping" element={<Shipping/>}/>
+        <Route path="/delivery" element={<Delivery/>}/>
+        <Route path="/payment" element={<Payment/>}/>
+
       </Route>
       <Route path="/sign-in" element={<SignIn/>}/>
     </Routes>
